@@ -57,3 +57,7 @@ DELETE http://yourdomain.com/app/api/{table_name}/{id}
 
 - PHP 5.6 or higher.
 - PDO extension enabled.
+
+#### License
+
+This project is licensed under the [MIT License](LICENSE).
