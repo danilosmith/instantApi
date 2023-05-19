@@ -29,29 +29,17 @@ InstantAPI is a lightweight PHP API that allows you to connect to any database w
 
 Assuming the base URL of the API is `http://yourdomain.com/app/api`, here are some example requests:
 
-- Retrieve all tables:
+- Retrieve all tables: GET http://yourdomain.com/app/api
 
-GET http://yourdomain.com/app/api
+- Retrieve all records from a table: GET http://yourdomain.com/app/api/{table_name}
 
-- Retrieve all records from a table:
+- Retrieve a specific record from a table: GET http://yourdomain.com/app/api/{table_name}/{id}
 
-GET http://yourdomain.com/app/api/{table_name}
+- Add a new record to a table: POST http://yourdomain.com/app/api/{table_name}
 
-- Retrieve a specific record from a table:
+- Update a specific record in a table: PUT http://yourdomain.com/app/api/{table_name}/{id}
 
-GET http://yourdomain.com/app/api/{table_name}/{id}
-
-- Add a new record to a table:
-
-POST http://yourdomain.com/app/api/{table_name}
-
-- Update a specific record in a table:
-
-PUT http://yourdomain.com/app/api/{table_name}/{id}
-
-- Delete a specific record from a table:
-
-DELETE http://yourdomain.com/app/api/{table_name}/{id}
+- Delete a specific record from a table: DELETE http://yourdomain.com/app/api/{table_name}/{id}
 
 ## Requirements
 
